@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="username" value="Greens8767"></parameter>
+<parameter name="password" value="L4R739"></parameter>
+<parameter name="location" value="Sydney"></parameter>
+<parameter name="hotels" value="Hotel Creek"></parameter>
+<parameter name="room_type" value="Standard"></parameter>
+<parameter name="room_nos" value="3 - Three"></parameter>
+<parameter name="datepick_in" value="29/10/2022"></parameter>
+<parameter name="datepick_out" value="31/10/2022"></parameter>
+<parameter name="adult_room" value="3 - Three"></parameter>
+<parameter name="child_room" value="2 - Two"></parameter>
+<parameter name="first_name" value="prakash"></parameter>
+<parameter name="last_name" value="frank"></parameter>
+<parameter name="address" value="chennai"></parameter>
+<parameter name="cc_num" value="1234567890123456"></parameter>
+<parameter name="cc_type" value="Master Card"></parameter>
+<parameter name="cc_exp_month" value="December"></parameter>
+<parameter name="cc_exp_year" value="2022"></parameter>
+<parameter name="cc_cvv" value="423"></parameter>
+    <classes>
+      <class name="testng.test.Hotel"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
